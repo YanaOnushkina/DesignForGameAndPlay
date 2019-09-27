@@ -7,30 +7,45 @@ public class Movement : MonoBehaviour
     public Rigidbody rb;
 
     public float sideForce = 500f;
+    public float jumpSpeed = 10f;
+
 
     // Update is called once per frame
     void FixedUpdate()
     {
 
-        if (Input.GetKey("d"))
+        //move around
+        if (Input.GetKey("right"))
         {
             rb.AddForce(sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
-        if (Input.GetKey("a"))
+        if (Input.GetKey("left"))
         {
             rb.AddForce(-sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
-        if (Input.GetKey("w"))
+        if (Input.GetKey("up"))
         {
             rb.AddForce(0, 0, sideForce * Time.deltaTime, ForceMode.VelocityChange);
         }
 
-        if (Input.GetKey("s"))
+        if (Input.GetKey("down"))
         {
             rb.AddForce(0, 0, -sideForce * Time.deltaTime, ForceMode.VelocityChange);
         }
+
+        //jump
+        if (Input.GetKey("space"))
+        {
+            Debug.Log("space");
+            Vector3 jumpVelocity = new Vector3(0f, jumpSpeed, 0f);
+            rb.velocity = rb.velocity + jumpVelocity;
+            // rb.AddForce(0, -sideForce * Time.deltaTime, 0, ForceMode.VelocityChange);
+        }
+
+        //checks if the player is on the ground
+
 
     }
 }

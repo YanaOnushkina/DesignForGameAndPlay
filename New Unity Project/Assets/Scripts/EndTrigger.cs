@@ -7,7 +7,8 @@ public class EndTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
+        if(other.tag == "")
+        Debug.Log("issue_1");
         gameManager.CompleteLevel();
 
     }

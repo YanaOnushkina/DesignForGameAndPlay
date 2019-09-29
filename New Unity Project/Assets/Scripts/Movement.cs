@@ -45,6 +45,10 @@ public class Movement : MonoBehaviour
         }
 
         //checks if the player is on the ground
+        if (rb.position.y < -2f)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
 
 
     }

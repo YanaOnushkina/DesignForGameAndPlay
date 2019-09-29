@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -88,7 +88,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a0d403a2630a78e48b0fd08af47f0ba6,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -112,6 +113,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!54 &173303795 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4406944667216595366, guid: c872079c93c77cf43a95f3cee16e7b0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2041985239}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &209498092 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7960759951474499152, guid: 8171e789c9852aa448c8bdf14614c5af,
@@ -196,6 +203,16 @@ PrefabInstance:
       propertyPath: jumpSpeed
       value: 0.9
       objectReference: {fileID: 0}
+    - target: {fileID: 2523625969409819615, guid: 7a1ce7d1be68c634d941a8e63de4c378,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523625969409819612, guid: 7a1ce7d1be68c634d941a8e63de4c378,
+        type: 3}
+      propertyPath: platform
+      value: 
+      objectReference: {fileID: 173303795}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1ce7d1be68c634d941a8e63de4c378, type: 3}
 --- !u!1001 &632800566
@@ -561,7 +578,8 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 209498092}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
 --- !u!1001 &6504940958810941029
 PrefabInstance:

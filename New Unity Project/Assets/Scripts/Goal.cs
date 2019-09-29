@@ -22,13 +22,10 @@ public class Goal : MonoBehaviour
     {
         if (other.tag == "Goal" && hit == false)
         {
-
             hit = true;
             player.isKinematic = true;
             platform.isKinematic = true;
-
-
-            Debug.Log("You Win!");
+            FindObjectOfType<GameManager>().CompleteLevel();
 
         }
 

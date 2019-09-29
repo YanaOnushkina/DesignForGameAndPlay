@@ -35,15 +35,6 @@ public class Movement : MonoBehaviour
             rb.AddForce(0, 0, -sideForce * Time.deltaTime, ForceMode.VelocityChange);
         }
 
-        //jump
-        if (Input.GetKey("space"))
-        {
-            Debug.Log("space");
-            Vector3 jumpVelocity = new Vector3(0f, jumpSpeed, 0f);
-            rb.velocity = rb.velocity + jumpVelocity;
-            // rb.AddForce(0, -sideForce * Time.deltaTime, 0, ForceMode.VelocityChange);
-        }
-
         //checks if the player is on the ground
         if (rb.position.y < -2f)
         {

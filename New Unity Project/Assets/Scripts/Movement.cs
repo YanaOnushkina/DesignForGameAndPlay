@@ -7,7 +7,6 @@ public class Movement : MonoBehaviour
     public Rigidbody rb;
 
     public float sideForce = 500f;
-    public float jumpSpeed = 10f;
 
 
     // Update is called once per frame
@@ -36,7 +35,7 @@ public class Movement : MonoBehaviour
         }
 
         //checks if the player is on the ground
-        if (rb.position.y < -2f)
+        if (rb.position.y < -10f)
         {
             FindObjectOfType<GameManager>().EndGame();
         }

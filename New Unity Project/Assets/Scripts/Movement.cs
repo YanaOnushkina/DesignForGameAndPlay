@@ -7,39 +7,41 @@ public class Movement : MonoBehaviour
     public Rigidbody rb;
 
     public float sideForce = 500f;
-
+    bool grounded = false;
 
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        //move around
-        if (Input.GetKey("right"))
+        if (rb.position.y < 1 || grounded == true)
         {
-            rb.AddForce(sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+            grounded = true;
+            //move around
+            if (Input.GetKey("right"))
+            {
+                rb.AddForce(sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+            }
+
+            if (Input.GetKey("left"))
+            {
+                rb.AddForce(-sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+            }
+
+            if (Input.GetKey("up"))
+            {
+                rb.AddForce(0, 0, sideForce * Time.deltaTime, ForceMode.VelocityChange);
+            }
+
+            if (Input.GetKey("down"))
+            {
+                rb.AddForce(0, 0, -sideForce * Time.deltaTime, ForceMode.VelocityChange);
+            }
+
+            //checks if the player is on the ground
+            if (rb.position.y < -10f)
+            {
+                FindObjectOfType<GameManager>().EndGame();
+            }
+
         }
-
-        if (Input.GetKey("left"))
-        {
-            rb.AddForce(-sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-        }
-
-        if (Input.GetKey("up"))
-        {
-            rb.AddForce(0, 0, sideForce * Time.deltaTime, ForceMode.VelocityChange);
-        }
-
-        if (Input.GetKey("down"))
-        {
-            rb.AddForce(0, 0, -sideForce * Time.deltaTime, ForceMode.VelocityChange);
-        }
-
-        //checks if the player is on the ground
-        if (rb.position.y < -10f)
-        {
-            FindObjectOfType<GameManager>().EndGame();
-        }
-
-
     }
 }

@@ -7,6 +7,7 @@ TagManager:
   - Goal
   - Platform
   - Box
+  - cat_paw
   layers:
   - Default
   - TransparentFX

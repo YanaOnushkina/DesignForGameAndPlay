@@ -26,7 +26,12 @@ public class Goal : MonoBehaviour
             hit = true;
             player.isKinematic = true;
             platform.isKinematic = true;
+<<<<<<< HEAD
             levelComplete.SetActive(true);
+=======
+            FindObjectOfType<GameManager>().CompleteLevel();
+            FindObjectOfType<AudioManager>().Play("Falling");
+>>>>>>> c4ba504702f6a68970491889d2a74206ea1a43bc
 
         }
 

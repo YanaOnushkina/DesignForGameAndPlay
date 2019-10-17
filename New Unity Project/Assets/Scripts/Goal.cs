@@ -11,6 +11,7 @@ public class Goal : MonoBehaviour
     public Rigidbody platform;
     public float mass;
     bool hit = false;
+    public GameObject levelComplete;
 
     // Update is called once per frame
     void Update()
@@ -25,7 +26,7 @@ public class Goal : MonoBehaviour
             hit = true;
             player.isKinematic = true;
             platform.isKinematic = true;
-            FindObjectOfType<GameManager>().CompleteLevel();
+            levelComplete.SetActive(true);
 
         }
 

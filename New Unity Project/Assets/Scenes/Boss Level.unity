@@ -1939,11 +1939,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Platform
       objectReference: {fileID: 0}
-    - target: {fileID: 4406944667216595366, guid: c872079c93c77cf43a95f3cee16e7b0d,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4406944667216595362, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2009,9 +2004,9 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1469441574}
-    - target: {fileID: 4406944667216595367, guid: c872079c93c77cf43a95f3cee16e7b0d,
+    - target: {fileID: 4406944667216595366, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
-      propertyPath: m_IsTrigger
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4406944666252775540, guid: c872079c93c77cf43a95f3cee16e7b0d,
@@ -2024,6 +2019,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 4406944667216595367, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
 --- !u!1 &1235647825

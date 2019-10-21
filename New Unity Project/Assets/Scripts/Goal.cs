@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
-
-    //test
-
     public Rigidbody player;
     public Rigidbody platform;
     public float mass;

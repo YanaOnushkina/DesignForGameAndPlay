@@ -321,6 +321,16 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.b
       value: 0.35686275
       objectReference: {fileID: 0}
+    - target: {fileID: 4036521342289906623, guid: 806775401634ffc47b14dd3deee65560,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036521342289906623, guid: 806775401634ffc47b14dd3deee65560,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 806775401634ffc47b14dd3deee65560, type: 3}
 --- !u!1 &841019450 stripped
@@ -1053,6 +1063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8903042337344899262, guid: 2e32f8e611ad0464fb0496e72c272f38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8903042337641904028, guid: 2e32f8e611ad0464fb0496e72c272f38,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1156,11 +1171,6 @@ PrefabInstance:
     - target: {fileID: 8903042337641904028, guid: 2e32f8e611ad0464fb0496e72c272f38,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8903042337344899262, guid: 2e32f8e611ad0464fb0496e72c272f38,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8903042336926905791, guid: 2e32f8e611ad0464fb0496e72c272f38,

@@ -260,7 +260,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL 6.5
+  m_Text: LEVEL 7
 --- !u!222 &138966385
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1480,6 +1480,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 2015219412}
+    - target: {fileID: 4406944667216595365, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4406944666252775541, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1509,16 +1519,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.x
       value: 0.23515975
-      objectReference: {fileID: 0}
-    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
-        type: 3}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 2015219412}
-    - target: {fileID: 4406944667216595365, guid: c872079c93c77cf43a95f3cee16e7b0d,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}

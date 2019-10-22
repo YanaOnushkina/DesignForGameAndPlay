@@ -1362,7 +1362,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL 6
+  m_Text: LEVEL 4
 --- !u!222 &1068041607
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2489,6 +2489,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 326987677}
     - target: {fileID: 4406944666252775541, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2519,11 +2524,6 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: 0.23515975
       objectReference: {fileID: 0}
-    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
-        type: 3}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 326987677}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
 --- !u!54 &1949655032 stripped

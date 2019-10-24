@@ -531,7 +531,6 @@ MonoBehaviour:
   winScreen: {fileID: 642257612}
   returnDelay: 5
   player: {fileID: 1803619447}
-  score: {fileID: 0}
 --- !u!65 &711935545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1770,7 +1769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: {fileID: 1619738690}
-  time_var: 2
+  time_var: 30
   Timeover: {fileID: 958801059}
   goal: {fileID: 711935542}
 --- !u!1001 &1936939308

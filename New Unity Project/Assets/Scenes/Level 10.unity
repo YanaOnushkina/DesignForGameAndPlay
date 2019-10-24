@@ -1007,27 +1007,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007244560}
   m_CullTransparentMesh: 0
---- !u!1 &1158689523 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4406944667216595364, guid: c872079c93c77cf43a95f3cee16e7b0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1547564972}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1158689530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158689523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f19c7f94c794c5097d8bd11e39c750d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpinSpeed: 1
-  RotationRange: 90
-  Motion: 1
 --- !u!1001 &1236486044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1614,7 +1593,9 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4406944667216595365, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
+    - {fileID: 4406944667216595366, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
 --- !u!1001 &1559996658
 PrefabInstance:

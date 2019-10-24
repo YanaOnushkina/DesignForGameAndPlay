@@ -446,7 +446,7 @@ PrefabInstance:
         type: 3}
       propertyPath: platform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 551137339}
     - target: {fileID: 2523625969409819612, guid: 7a1ce7d1be68c634d941a8e63de4c378,
         type: 3}
       propertyPath: levelComplete
@@ -665,6 +665,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 841019450}
+--- !u!54 &551137339 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4406944667216595366, guid: c872079c93c77cf43a95f3cee16e7b0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 986767817}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &595903354
 PrefabInstance:
   m_ObjectHideFlags: 0

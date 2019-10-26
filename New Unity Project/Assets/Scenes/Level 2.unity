@@ -851,11 +851,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
-        type: 3}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 1042206298}
     - target: {fileID: 4406944666252775541, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -874,7 +869,7 @@ PrefabInstance:
     - target: {fileID: 4406944666252775543, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_Radius
-      value: 0.7893987
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4406944666252775543, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
@@ -891,6 +886,11 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: 0.23516
       objectReference: {fileID: 0}
+    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1042206298}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
 --- !u!54 &439651144 stripped

@@ -1697,11 +1697,19 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2015219412}
+=======
+    - target: {fileID: 4406944667216595365, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5
+      objectReference: {fileID: 0}
+>>>>>>> cb67415d4c38a3d9bfcd97af445dfa97d8b081c6
     - target: {fileID: 4406944666252775541, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1715,7 +1723,7 @@ PrefabInstance:
     - target: {fileID: 4406944666252775543, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_Radius
-      value: 0.96332014
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4406944666252775543, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
@@ -1732,11 +1740,19 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: 0.23515975
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4406944667216595365, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 0.5
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 2015219412}
+>>>>>>> cb67415d4c38a3d9bfcd97af445dfa97d8b081c6
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}
 --- !u!4 &1314951739 stripped

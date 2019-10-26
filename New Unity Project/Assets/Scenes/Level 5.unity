@@ -446,7 +446,7 @@ PrefabInstance:
         type: 3}
       propertyPath: platform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 551137339}
     - target: {fileID: 2523625969409819612, guid: 7a1ce7d1be68c634d941a8e63de4c378,
         type: 3}
       propertyPath: levelComplete
@@ -665,6 +665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 841019450}
+<<<<<<< HEAD
 --- !u!1001 &553161828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -739,6 +740,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22182312d8f51a248b6102bcac7042ba, type: 3}
+=======
+--- !u!54 &551137339 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4406944667216595366, guid: c872079c93c77cf43a95f3cee16e7b0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 986767817}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> cb67415d4c38a3d9bfcd97af445dfa97d8b081c6
 --- !u!1001 &595903354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1477,10 +1486,17 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: gameManager
       value: 
+=======
+    - target: {fileID: 4406944667216595365, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.5
+>>>>>>> cb67415d4c38a3d9bfcd97af445dfa97d8b081c6
       objectReference: {fileID: 0}
     - target: {fileID: 4406944666252775541, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
@@ -1495,7 +1511,7 @@ PrefabInstance:
     - target: {fileID: 4406944666252775543, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_Radius
-      value: 0.96332014
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4406944666252775543, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
@@ -1512,10 +1528,17 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: 0.23515975
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4406944667216595365, guid: c872079c93c77cf43a95f3cee16e7b0d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 0.5
+=======
+    - target: {fileID: 5953496123949279625, guid: c872079c93c77cf43a95f3cee16e7b0d,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+>>>>>>> cb67415d4c38a3d9bfcd97af445dfa97d8b081c6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c872079c93c77cf43a95f3cee16e7b0d, type: 3}

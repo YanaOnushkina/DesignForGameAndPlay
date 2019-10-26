@@ -1868,7 +1868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: {fileID: 1619738690}
-  time_var: 2
+  time_var: 30
   Timeover: {fileID: 958801059}
   goal: {fileID: 711935542}
 --- !u!1001 &1936939308

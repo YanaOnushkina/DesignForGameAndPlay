@@ -25,7 +25,7 @@ public class Goal : MonoBehaviour
             platform.isKinematic = true;
             levelComplete.SetActive(true);
             levelComplete.SetActive(true);
-            FindObjectOfType<AudioManager>().Play("Falling");
+            FindObjectOfType<AudioManager>().Play("Level Finished");
 
         }
 

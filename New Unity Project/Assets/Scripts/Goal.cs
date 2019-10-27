@@ -9,13 +9,6 @@ public class Goal : MonoBehaviour
     public float mass;
     bool hit = false;
     public GameObject levelComplete;
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Goal" && hit == false)
@@ -24,11 +17,8 @@ public class Goal : MonoBehaviour
             player.isKinematic = true;
             platform.isKinematic = true;
             levelComplete.SetActive(true);
-            levelComplete.SetActive(true);
             FindObjectOfType<AudioManager>().Play("Falling");
 
         }
-
     }
-
 }

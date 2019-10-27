@@ -19,35 +19,35 @@ public class Movement : MonoBehaviour
             if (Input.GetKey("right"))
             {
                 rb.AddForce(sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-                FindObjectOfType<AudioManager>().Play("Rolling");
-                FindObjectOfType<AudioManager>().Play("Scratching");
+                //FindObjectOfType<AudioManager>().Play("Rolling");
+                //FindObjectOfType<AudioManager>().Play("Scratching");
             }
 
             if (Input.GetKey("left"))
             {
                 rb.AddForce(-sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-                FindObjectOfType<AudioManager>().Play("Rolling");
-                FindObjectOfType<AudioManager>().Play("Scratching");
+                //FindObjectOfType<AudioManager>().Play("Rolling");
+                //FindObjectOfType<AudioManager>().Play("Scratching");
             }
 
             if (Input.GetKey("up"))
             {
                 rb.AddForce(0, 0, sideForce * Time.deltaTime, ForceMode.VelocityChange);
-                FindObjectOfType<AudioManager>().Play("Rolling");
-                FindObjectOfType<AudioManager>().Play("Scratching");
+                //FindObjectOfType<AudioManager>().Play("Rolling");
+                //FindObjectOfType<AudioManager>().Play("Scratching");
             }
 
             if (Input.GetKey("down"))
             {
                 rb.AddForce(0, 0, -sideForce * Time.deltaTime, ForceMode.VelocityChange);
-                FindObjectOfType<AudioManager>().Play("Rolling");
-                FindObjectOfType<AudioManager>().Play("Scratching");
+                //FindObjectOfType<AudioManager>().Play("Rolling");
+                //FindObjectOfType<AudioManager>().Play("Scratching");
             }
 
             //checks if the player is on the ground
             if (rb.position.y < -10f)
             {
-                FindObjectOfType<AudioManager>().Play("Falling");
+                //FindObjectOfType<AudioManager>().Play("Falling");
                 FindObjectOfType<GameManager>().EndGame();
             }
 

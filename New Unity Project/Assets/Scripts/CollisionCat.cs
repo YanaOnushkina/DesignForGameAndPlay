@@ -10,7 +10,6 @@ public class CollisionCat : MonoBehaviour
     public GameObject life3;
     public GameObject winScreen;
     int counter = 0;
-    public int returnDelay = 2;
     public Rigidbody player;
 
     private void OnTriggerEnter(Collider other)

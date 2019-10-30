@@ -5382,6 +5382,105 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794449757}
   m_CullTransparentMesh: 0
+--- !u!1001 &1801148587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3575540123705933555, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager 1 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933553, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933552, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933552, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: sounds.Array.data[0].name
+      value: Main Theme
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933552, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933552, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933552, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: sounds.Array.data[0].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575540123705933552, guid: 57d789e7c8aea7c42ba90c93f0a082aa,
+        type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7835416507c3ef0499137e226e189185, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57d789e7c8aea7c42ba90c93f0a082aa, type: 3}
 --- !u!1 &1813280378
 GameObject:
   m_ObjectHideFlags: 0
